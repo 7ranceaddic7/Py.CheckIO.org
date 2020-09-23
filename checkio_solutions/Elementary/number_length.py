@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run number-length
+# !/usr/bin/env checkio --domain=py run number-length
 
 # You have a positive integer. Try to find out how many digits it has?
 # 
@@ -10,8 +10,8 @@
 # END_DESC
 
 def number_length(a: int) -> int:
-    # your code here
-    return None
+
+    return (len(str(a)))
 
 
 if __name__ == '__main__':

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run acceptable-password-i
+# !/usr/bin/env checkio --domain=py run acceptable-password-i
 
 # You are at the beginning of a password series. Every mission is based on the previous one. Going forward the missions will become slightly more complex.
 # 
@@ -6,16 +6,18 @@
 # 
 # The verification condition is:
 # 
-# the length should be bigger than 6.Input:A string.
+# the length should be bigger than 6.
 # 
-# Output:A bool.
+# Input: A string.
+# 
+# Output: A bool.
 # 
 # 
 # END_DESC
 
 def is_acceptable_password(password: str) -> bool:
-    # your code here
-    return True
+#    print(len(password))
+    return (len(password)>6)
 
 
 if __name__ == '__main__':

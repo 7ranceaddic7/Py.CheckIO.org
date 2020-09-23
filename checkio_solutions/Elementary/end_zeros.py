@@ -10,9 +10,7 @@
 # END_DESC
 
 def end_zeros(num: int) -> int:
-    # your code here
-    return None
-
+    return len(str(num)) - len(str(num).rstrip('0'))
 
 if __name__ == '__main__':
     print("Example:")

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run multiply-intro
+# !/usr/bin/env checkio --domain=py run multiply-intro
 
 # (at the top right of the mission description there always is a list of available translations)
 # 

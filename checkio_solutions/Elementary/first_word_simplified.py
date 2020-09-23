@@ -1,14 +1,16 @@
-#!/usr/bin/env checkio --domain=py run first-word-simplified
+# !/usr/bin/env checkio --domain=py run first-word-simplified
 
 # You are given a string and you have to find its first word.
 # 
 # This is a simplified version of theFirst Wordmission, which can be solved later.
 # 
-# The input string consists of only English letters and spaces.There aren’t any spaces at the beginning and the end of the string.Input:A string.
+# The input string consists of only English letters and spaces. There aren’t any spaces at the beginning and the end of the string.
 # 
-# Output:A string.
+# Input: A string.
 # 
-# Precondition:The text can contain a-z, A-Z and spaces.
+# Output: A string.
+# 
+# Precondition: The text can contain a-z, A-Z and spaces.
 # 
 # 
 # END_DESC
@@ -17,8 +19,9 @@ def first_word(text: str) -> str:
     """
         returns the first word in a given text.
     """
-    # your code here
-    return text[0:2]
+
+    print(text.split()[0])
+    return (text.split()[0])
 
 
 if __name__ == '__main__':

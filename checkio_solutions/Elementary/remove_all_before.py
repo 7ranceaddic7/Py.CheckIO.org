@@ -1,7 +1,6 @@
-#!/usr/bin/env checkio --domain=py run remove-all-before
+# !/usr/bin/env checkio --domain=py run remove-all-before
 
 # Not all of the elements are important. What you need to do here is to remove from the list all of the elements before the given one.
-# 
 # 
 # 
 # For the illustration we have a list [3, 4, 5] and we need to remove all elements that go before 3 - which is 1 and 2.
@@ -19,8 +18,11 @@ from typing import Iterable
 
 
 def remove_all_before(items: list, border: int) -> Iterable:
-    # your code here
-    return items
+    for num in items:
+        if num != border:
+            items.slice[num]
+    print(items)
+    return(items)
 
 
 if __name__ == '__main__':

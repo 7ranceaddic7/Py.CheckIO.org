@@ -1,10 +1,10 @@
-#!/usr/bin/env checkio --domain=py run easy-unpack
+# !/usr/bin/env checkio --domain=py run easy-unpack
 
 # Your mission here is to create a function that gets a tuple and returns a tuple with 3 elements - the first, third and second element from the last for the given array.
 # 
 # 
 # 
-# One important thing worth pointing out is that you need to use index in order to extract elements from the array. Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from the arrayelements, you should doelements[0], and the second element iselements[1].
+# One important thing worth pointing out is that you need to use index in order to extract elements from the array. Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from the arrayelements, you should do elements[0], and the second element is elements[1].
 # 
 # Input:A tuple, at least 3 elements long.
 # 
@@ -14,11 +14,17 @@
 # END_DESC
 
 def easy_unpack(elements: tuple) -> tuple:
-    """
-        returns a tuple with 3 elements - first, third and second to the last
-    """
-    # your code here
-    return ()
+    easy_unpack = lambda e: (e[0], e[2], e[-2])
+##    """
+##        returns a tuple with 3 elements - first, third and second to the last
+##    """
+##    first = str(elements[0])
+##    second = str(elements[2])
+##    third = str(elements[-2])
+##
+##    print(first, second, third)
+##    
+##    return elements[0], elements[2], elements[-2]
 
 if __name__ == '__main__':
     print('Examples:')

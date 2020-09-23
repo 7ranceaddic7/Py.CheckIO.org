@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run backward-string
+# !/usr/bin/env checkio --domain=py run backward-string
 
 # You should return a given string in reverse order.
 # 
@@ -10,8 +10,8 @@
 # END_DESC
 
 def backward_string(val: str) -> str:
-    # your code here
-    return None
+    text = val[::-1]
+    return text
 
 
 if __name__ == '__main__':
